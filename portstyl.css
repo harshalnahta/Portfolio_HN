@@ -1,0 +1,146 @@
+
+body{
+
+    background-image: url("https://image.freepik.com/free-photo/watercolor-light-gray-gradient-background-texture_145343-639.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.nav_list{
+    color: rgb(218, 215, 212);
+    font-size: 2vw;
+}
+.nav_list:hover{
+    cursor: pointer;
+    border: solid rgb(168, 166, 164);
+    border-radius: 8px;
+}
+.nav_list#logo:hover{
+    border: none;
+}
+.container-fluid{
+    width: auto;
+    height: auto;
+}
+.img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+
+}
+#img{
+    border: solid black;
+}
+#insta:hover{
+    block-size: 30px;
+}
+#linked:hover{
+    block-size: 30px;
+}
+.basic{
+   
+  width: 50ch;
+ font-size: x-large;
+}
+#basic3 {
+  margin-left: 53%;
+}
+.iframe1:hover {background-color: whitesmoke;}
+#basic3:hover{background-color:whitesmoke;}
+.basic:hover{background-color: whitesmoke;}
+.font{
+    font-family: cursive;
+}
+.pro{
+  font-size: x-large;
+}
+
+.dropdwn {
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  .content {
+    display: none;
+    position: absolute;
+    background-color: #bdb8b8;
+    min-width: fit-content;
+    box-shadow: 4px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    opacity: 0.6;
+    z-index: 1;
+    min-width: fit-content;
+  }
+  .A{color: black;}
+.dropdwn:hover .content { display: block;}
+.content:hover{
+  opacity: 1;
+    display: block;
+    min-width: fit-content;
+    background-color: #c5bdbd;
+    
+}
+.A:hover{
+    color: white;
+}
+#mail{
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  color: rgb(218, 215, 212);
+ 
+}
+.iframe1{
+  justify-content: space-around;
+  display: flex;
+}
+
+
+
+#ph{margin-left: 760px;}
+.type_writer_anim {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 170px;
+    margin-bottom: 200px;
+  
+  
+  }
+  
+  .type_writer_anim > .text {
+    max-width: 0;
+    animation: typing 3s steps(var(--characters)) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .type_writer_anim:after {
+    content: " |";
+    animation: blink 1s infinite;
+    animation-timing-function: step-end;
+  }
+
+  @keyframes typing {
+    75%,
+    100% {
+      max-width: calc(var(--characters) * 1ch);
+    }
+  }
+  
+  @keyframes blink {
+    0%,
+    75%,
+    100% {
+      opacity: 1;
+    }
+    25%,50% {
+      opacity: 0;
+    }
+  }
